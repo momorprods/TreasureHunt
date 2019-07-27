@@ -17,7 +17,7 @@ The app comes by default with no predefined adventure, so you will have to creat
 
 You can also use relative paths like
 
-![Menu Screen](_docs/screen_menu.png?raw=true "Menu screen")
+![Menu Screen](_doc/screen_menu.png?raw=true "Menu screen")
 
 From there, click on the "+" button.
 
