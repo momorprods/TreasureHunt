@@ -12,6 +12,14 @@ The app offers the following features:
 * Share your creations with your friends (using iOS built-in share function)
 
 ## Manual
+The app comes by default with no predefined adventure, so you will have to create one first.
+
+
+You can also use relative paths like
+
+![Menu Screen](_docs/screen_menu.png?raw=true "Menu screen")
+
+From there, click on the "+" button.
 
 
 
