@@ -19,7 +19,9 @@ You can also use relative paths like
 
 ![Menu Screen](_doc/screen_menu.png?raw=true "Menu screen")
 
-From there, click on the "+" button.
+From there, click on the **"+"** button. Enter a name for your adventure and touch the **Create** button.
 
+![Create Screen](_doc/screen_create.png?raw=true "Create screen")
 
+You can now select your adventure and edit it.
 
