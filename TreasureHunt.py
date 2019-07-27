@@ -846,6 +846,7 @@ def onDeleteAdventureAction(sender):
 	recurseDeleteFolder(AdventureFolder)
 	launchTitleScreen()
 	
+@ui.in_background	
 def onShareButton(sender):
 	global AdventureFolder
 	global mustSave
@@ -856,7 +857,6 @@ def onShareButton(sender):
 	mustSave=False
 	make_zipfile("./"+AdventureFolder+".thz","./"+AdventureFolder+"/")
 	console.open_in(AdventureFolder+".thz")
-	#decompress_zipfile("./ess.zip","./toto")
 	
 @ui.in_background
 def launchGameScreen():
