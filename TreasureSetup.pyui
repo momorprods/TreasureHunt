@@ -1,0 +1,226 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 301}, {308, 129}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "24E574DD-6DA6-4355-8499-1FE8AF935658",
+          "data_source_action" : "languageSelected",
+          "editing" : false,
+          "corner_radius" : 4,
+          "background_color" : "RGBA(0.816479,0.816479,0.816479,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 0,
+          "border_width" : 1,
+          "border_color" : "RGBA(0.478022,0.269231,1.000000,1.000000)",
+          "data_source_move_enabled" : false,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 25,
+          "class" : "TableView",
+          "name" : "languageTableView",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 276}, {314, 24}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "SpokenLabel",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "604AB3C9-AE4E-42A0-86D8-A21AD6923E9B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Spoken Language",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 438}, {233, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "onShareButton",
+          "flex" : "LRT",
+          "frame" : "{{120, 195}, {80, 32}}",
+          "title" : "Export & Share Hunt",
+          "uuid" : "450FD171-F92D-4A70-B9CD-647361491793",
+          "class" : "Button",
+          "name" : "shareButton",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {320, 24}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WB",
+          "name" : "title",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C359ADCA-9D7A-488F-9835-F21B7142E2A5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Settings",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 48}, {308, 25}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 14,
+          "uuid" : "9BBA7E5F-2C8F-4B48-9233-20EF69189F1C",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "action" : "authorEdit",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "placeholder" : "Author name",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "AuthorText",
+          "flex" : "WB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 23}, {314, 24}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C01F4150-38D8-416D-9E19-E787402B5FA1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Author",
+          "name" : "AuthorLabel",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 72}, {308, 28}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C3AD49E2-36D8-469E-92A5-E74AAFA940B7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Description",
+          "number_of_lines" : 0,
+          "name" : "descriptionLabel",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 175}, {308, 26}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "508B92ED-9626-4BCD-8DDF-3A8DFE485C15",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Hunt end message",
+          "name" : "EndMessageLabel",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 100}, {308, 74}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "647F45B7-677C-421E-8FD3-B8AADE3E24E2",
+          "font_size" : 14,
+          "corner_radius" : 1,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "border_color" : "RGBA(0.801498,0.801498,0.801498,1.000000)",
+          "editable" : true,
+          "border_width" : 1,
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "DescriptionTextView",
+          "flex" : "WB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 202}, {308, 75}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "647F45B7-677C-421E-8FD3-B8AADE3E24E2",
+          "flex" : "WB",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "border_color" : "RGBA(0.801498,0.801498,0.801498,1.000000)",
+          "editable" : true,
+          "border_width" : 1,
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "EndOfGameTextView",
+          "font_size" : 14
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

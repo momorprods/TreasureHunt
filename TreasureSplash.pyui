@@ -1,0 +1,35 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {320, 480}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "image_name" : "iob:map_256",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.769231,0.901099,1.000000,1.000000)",
+          "title" : "",
+          "uuid" : "CE29D244-45A7-4C4D-AEDA-B5DF3D8A9658",
+          "class" : "Button",
+          "name" : "splash",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
