@@ -21,9 +21,6 @@ Be sure to have enabled Location and Photo library & Camera access to the Python
 ## How to create an Adventure
 The app comes by default with no predefined adventure, so you will have to create one first.
 
-
-You can also use relative paths like
-
 ![Menu Screen](_doc/screen_menu.png?raw=true "Menu screen")
 
 From there, click on the **"+"** button. Enter a name for your adventure and touch the **Create** button.
